@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /home/ricar/Documents/OpenSatKit-master/cfs/apps/md
+# Build directory: /home/ricar/Documents/OpenSatKit-master/cfs/build/cpu1/apps/md
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

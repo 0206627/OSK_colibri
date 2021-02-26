@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o sc.so CMakeFiles/sc.dir/fsw/src/sc_app.c.o CMakeFiles/sc.dir/fsw/src/sc_atsrq.c.o CMakeFiles/sc.dir/fsw/src/sc_cmds.c.o CMakeFiles/sc.dir/fsw/src/sc_loads.c.o CMakeFiles/sc.dir/fsw/src/sc_rtsrq.c.o CMakeFiles/sc.dir/fsw/src/sc_state.c.o CMakeFiles/sc.dir/fsw/src/sc_utils.c.o 

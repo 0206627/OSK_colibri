@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o f42.so CMakeFiles/f42.dir/fsw/src/ctrltbl.c.o CMakeFiles/f42.dir/fsw/src/f42_adp.c.o CMakeFiles/f42.dir/fsw/src/f42_app.c.o -lm 

@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o isim.so CMakeFiles/isim.dir/fsw/src/isim.c.o CMakeFiles/isim.dir/fsw/src/isim_app.c.o CMakeFiles/isim.dir/fsw/src/isimtbl.c.o 

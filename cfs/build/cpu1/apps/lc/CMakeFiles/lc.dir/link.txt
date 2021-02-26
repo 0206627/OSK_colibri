@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o lc.so CMakeFiles/lc.dir/fsw/src/lc_action.c.o CMakeFiles/lc.dir/fsw/src/lc_app.c.o CMakeFiles/lc.dir/fsw/src/lc_cmds.c.o CMakeFiles/lc.dir/fsw/src/lc_custom.c.o CMakeFiles/lc.dir/fsw/src/lc_watch.c.o 
