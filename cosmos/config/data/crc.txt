@@ -238,7 +238,7 @@ USER_MODIFIED
 "config/targets/CFS_KIT/screens/sim_42_screen.txt" 0x458D8E7D
 "config/targets/CFS_KIT/screens/table_mgmt_screen.txt" 0x86378DAB
 "config/targets/CFS_KIT/screens/file_mgmt_screen.txt" 0x572DE3A6
-"config/targets/CFS_KIT/screens/json_table_mgmt_scr.txt" 0xD65C18D8
+"config/targets/CFS_KIT/screens/json_table_mgmt_scr.txt" 0x7BD989AD
 "config/targets/CFS_KIT/screens/cfe_screen.txt" 0x5248AB9B
 "config/targets/CFS_KIT/screens/about_scr.txt" 0x560A884E
 "config/targets/CFS_KIT/screens/pisat_connect_screen.txt" 0x84552826
@@ -437,7 +437,7 @@ USER_MODIFIED
 "config/targets/FILEMGR/osk/filemgr.json" 0x36A422BB
 "config/targets/FILEMGR/osk/filemgr_req.json" 0xABBB3313
 "config/targets/EXAMPLE/cmd_tlm/example_tlm.txt" 0x4DA0BFE4
-"config/targets/EXAMPLE/cmd_tlm/example_cmd.txt" 0xD86358A3
+"config/targets/EXAMPLE/cmd_tlm/example_cmd.txt" 0xC0002D8D
 "config/targets/EXAMPLE/table_manager/example_tbl_2.txt" 0xC9ECAA73
 "config/targets/EXAMPLE/table_manager/example_tbl_1.txt" 0x910954B3
 "config/targets/OSK_C_DEMO/demo.xml" 0xD33384DF
