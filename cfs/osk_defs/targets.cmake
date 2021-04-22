@@ -90,7 +90,7 @@ SET(TGT1_NAME cpu1)
 #   Not all of the apps built are loaded by cfe_es_startup.scr  
 #      HC & HSIM are needed to build LC & SC default tables
 #      Other apps such as osk_c_demo are used for the "app store" example and their object files need to be built 
-SET(TGT1_APPLIST cfs_lib expat_lib osk_c_fw osk_cpp_fw osk_42_lib mqtt_lib kit_ci kit_sch kit_to cs ds fm hs lc md mm sc hk tftp cf i42 f42 isim bm hc hsim filemgr osk_c_demo osk_cpp_demo mqtt example example2)
+SET(TGT1_APPLIST cfs_lib expat_lib osk_c_fw osk_cpp_fw osk_42_lib mqtt_lib kit_ci kit_sch kit_to cs ds fm hs lc md mm sc hk tftp cf i42 f42 isim bm hc hsim filemgr osk_c_demo osk_cpp_demo mqtt example example2, intento)
 # Development:
 #   Comment out Release TGT1_APPLIST and modify one of these for your your needs.
 #   SET(TGT1_APPLIST cfs_lib expat_lib osk_c_fw osk_cpp_fw osk_42_lib mqtt_lib kit_ci kit_sch kit_to osk_c_demo osk_cpp_demo mqtt filemgr isim f42 i42)

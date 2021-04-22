@@ -241,6 +241,12 @@ module Fsw
       OSK_TEST_SEND_HK_MID  = "0x1FF1"
       OSK_TEST_HK_TLM_MID   = "0x0FF0"
 
+      # MSGIDs for INTENTO
+
+      INTENTO_CMD_MID		= "0x1FCA"
+      INTENTO_SEND_HK_MID 	= "0x1FCB"
+      INTENTO_HK_TLM_MID	= "0x0FCA" 
+
       # Trivial File Transfer Protocol
   
       TFTP_CMD_MID          = "0x1900"

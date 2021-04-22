@@ -22,6 +22,7 @@ CFE_APP, /cf/i42.so,          I42_AppMain,         I42,           50,   80192, 0
 CFE_APP, /cf/cf.so,           CF_AppMain,          CF,           100,   80192, 0x0, 0;
 CFE_APP, /cf/hs.so,           HS_AppMain,          HS,           120,   16384, 0x0, 0;
 CFE_APP, /cf/example2.so,      EXAMPLE2_AppMain,     EXAMPLE2,       90,   16384, 0x0, 0;
+CFE_APP, /cf/intento.so,      INTENTO_AppMain,     INTENTO,       90,   16384, 0x0, 0;
 !
 ! Release Version
 !
