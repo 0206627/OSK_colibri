@@ -7,8 +7,8 @@ This is a working example for an app that does the following:
 - IMPORTANT:
 - Please before cloning this repository, make sure to have OSK installed. 
 - After cloning it, go to cfs directory and run the following commands:
--make distclean
--make prep
--make
--make install
--chmod urwx cmake.sh
+  - make distclean
+  - make prep
+  - make
+  - make install
+  - chmod urwx cmake.sh
