@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o i42.so CMakeFiles/i42.dir/fsw/src/i42_app.c.o CMakeFiles/i42.dir/fsw/src/if42.c.o -lm 

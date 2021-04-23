@@ -1,2 +1,0 @@
-/exe/host/cmdutil
-/exe/host/elf2cfetbl

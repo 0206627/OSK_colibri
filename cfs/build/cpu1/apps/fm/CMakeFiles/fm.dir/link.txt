@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o fm.so CMakeFiles/fm.dir/fsw/src/fm_app.c.o CMakeFiles/fm.dir/fsw/src/fm_child.c.o CMakeFiles/fm.dir/fsw/src/fm_cmd_utils.c.o CMakeFiles/fm.dir/fsw/src/fm_cmds.c.o CMakeFiles/fm.dir/fsw/src/fm_tbl.c.o 

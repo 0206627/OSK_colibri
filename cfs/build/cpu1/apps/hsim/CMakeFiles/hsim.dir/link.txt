@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o hsim.so CMakeFiles/hsim.dir/fsw/src/sim_app.c.o CMakeFiles/hsim.dir/fsw/src/sim_cmd_utils.c.o CMakeFiles/hsim.dir/fsw/src/sim_cmds.c.o 

@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o filemgr.so CMakeFiles/filemgr.dir/fsw/src/dir.c.o CMakeFiles/filemgr.dir/fsw/src/file.c.o CMakeFiles/filemgr.dir/fsw/src/filemgr_app.c.o CMakeFiles/filemgr.dir/fsw/src/filesys.c.o 

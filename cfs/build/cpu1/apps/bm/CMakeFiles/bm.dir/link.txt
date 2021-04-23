@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o bm.so CMakeFiles/bm.dir/fsw/src/bm_app.c.o CMakeFiles/bm.dir/fsw/src/bm_benchmarks.c.o CMakeFiles/bm.dir/fsw/src/bm_init_params.c.o CMakeFiles/bm.dir/fsw/src/dhry_1.c.o CMakeFiles/bm.dir/fsw/src/dhry_2.c.o CMakeFiles/bm.dir/fsw/src/whet.c.o -lm 

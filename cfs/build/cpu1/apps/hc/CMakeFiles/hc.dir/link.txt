@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o hc.so CMakeFiles/hc.dir/fsw/src/hc_app.c.o CMakeFiles/hc.dir/fsw/src/hc_cmd_utils.c.o CMakeFiles/hc.dir/fsw/src/hc_cmds.c.o CMakeFiles/hc.dir/fsw/src/hc_custom.c.o CMakeFiles/hc.dir/fsw/src/hc_tbl.c.o 

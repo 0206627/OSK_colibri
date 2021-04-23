@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o md.so CMakeFiles/md.dir/fsw/src/md_app.c.o CMakeFiles/md.dir/fsw/src/md_cmds.c.o CMakeFiles/md.dir/fsw/src/md_dwell_pkt.c.o CMakeFiles/md.dir/fsw/src/md_dwell_tbl.c.o CMakeFiles/md.dir/fsw/src/md_utils.c.o 

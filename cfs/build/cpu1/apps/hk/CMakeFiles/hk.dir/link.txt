@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o hk.so CMakeFiles/hk.dir/fsw/src/hk_app.c.o CMakeFiles/hk.dir/fsw/src/hk_utils.c.o 

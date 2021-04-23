@@ -1,1 +1,0 @@
-/usr/bin/gcc -fPIC -Wall -m32  -D_XOPEN_SOURCE=600    -g  -shared  -o ds.so CMakeFiles/ds.dir/fsw/src/ds_app.c.o CMakeFiles/ds.dir/fsw/src/ds_cmds.c.o CMakeFiles/ds.dir/fsw/src/ds_file.c.o CMakeFiles/ds.dir/fsw/src/ds_table.c.o 
