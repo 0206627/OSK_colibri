@@ -26,7 +26,7 @@ USER_MODIFIED
 "lib/hw_target.rb" 0xF54C1CC2
 "lib/app_template.rb" 0xB5C54E18
 "lib/osk_targets.rb" 0x52EB340D
-"lib/fsw_msg_id.rb" 0x51D1CA27
+"lib/fsw_msg_id.rb" 0x9D60892C
 "lib/utils_visiona/testutils.rb" 0x06AEC5C0
 "lib/utils_visiona/utils.rb" 0x10DDDBB2
 "lib/osk_global.rb" 0x3E38C0FD
@@ -143,7 +143,7 @@ USER_MODIFIED
 "config/tools/table_manager/fm_dir_list.txt" 0x7250A725
 "config/tools/table_manager/cf_queue_info.txt" 0x41F071F6
 "config/tools/data_viewer/data_viewer.txt" 0x5492A449
-"config/tools/cmd_tlm_server/cmd_tlm_server.txt" 0x744E0ABA
+"config/tools/cmd_tlm_server/cmd_tlm_server.txt" 0xB4062DA0
 "config/tools/test_runner/test_runner.txt" 0x5711DE4B
 "config/tools/limits_monitor/README.txt" 0x93B2C07E
 "config/tools/tlm_viewer/tlm_viewer.txt" 0x35EF4665
@@ -238,7 +238,7 @@ USER_MODIFIED
 "config/targets/CFS_KIT/screens/sim_42_screen.txt" 0x458D8E7D
 "config/targets/CFS_KIT/screens/table_mgmt_screen.txt" 0x86378DAB
 "config/targets/CFS_KIT/screens/file_mgmt_screen.txt" 0x572DE3A6
-"config/targets/CFS_KIT/screens/json_table_mgmt_scr.txt" 0x4449B420
+"config/targets/CFS_KIT/screens/json_table_mgmt_scr.txt" 0xAAD688AB
 "config/targets/CFS_KIT/screens/cfe_screen.txt" 0x5248AB9B
 "config/targets/CFS_KIT/screens/about_scr.txt" 0x560A884E
 "config/targets/CFS_KIT/screens/pisat_connect_screen.txt" 0x84552826
@@ -246,7 +246,7 @@ USER_MODIFIED
 "config/targets/CFS_KIT/screens/recorder_mgmt_demo_screen.txt" 0xF90E92BB
 "config/targets/CFS_KIT/screens/memory_mgmt_screen.txt" 0xCF3ADF7C
 "config/targets/CFS_KIT/screens/tutorial_scr.txt" 0x1D5059C0
-"config/targets/CFS_KIT/screens/create_app_scr.txt" 0xD1DB5FED
+"config/targets/CFS_KIT/screens/create_app_scr.txt" 0xF27098C0
 "config/targets/CFS_KIT/screens/autonomy_mgmt_screen.txt" 0x33314603
 "config/targets/CFS_KIT/screens/osk_tmp_get_bin_file_scr.txt" 0x8E367515
 "config/targets/CFS_KIT/screens/cfs_kit_screen.txt" 0x284235CA
@@ -337,6 +337,10 @@ USER_MODIFIED
 "config/targets/CFE_TIME/screens/cfe_time_screen.txt" 0xC6C796C6
 "config/targets/CFE_TIME/lib/cfe_time_const.rb" 0x68593EA3
 "config/targets/CFE_TIME/lib/cfe_time_screen.rb" 0x1A462165
+"config/targets/INTENTO/cmd_tlm/intento_tlm.txt" 0xFBB6019D
+"config/targets/INTENTO/cmd_tlm/intento_cmd.txt" 0x24953328
+"config/targets/INTENTO/table_manager/intento_tbl_2.txt" 0xE56C845A
+"config/targets/INTENTO/table_manager/intento_tbl_1.txt" 0xDFD77B3D
 "config/targets/CFE_SB/cmd_tlm/sb_tlm.txt" 0xAA305718
 "config/targets/CFE_SB/cmd_tlm/sb_cmd.txt" 0x25780120
 "config/targets/CFE_SB/procedures/cfe_sb_intg_test.rb" 0x12D448ED
