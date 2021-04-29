@@ -11,4 +11,3 @@ This is a working example for an app that does the following:
   - make prep
   - make
   - make install
-  - chmod urwx cmake.sh
