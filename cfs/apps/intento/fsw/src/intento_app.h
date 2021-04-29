@@ -99,7 +99,9 @@ typedef struct
   */
   CFE_SB_MsgPtr_t       MsgPtr;
   CFE_SB_PipeId_t       CmdPipe;
-  
+  CFE_SB_MsgPtr_t       AppCommMsgPtr;
+  CFE_SB_PipeId_t       AppCommCmdPipe;
+
   /*
   ** RunStatus variable used in the main processing loop
   */
@@ -116,6 +118,8 @@ typedef struct
   uint8                 LimitCmd;
 
   CFE_EVS_BinFilter_t   EventFilters[INTENTO_EVT_COUNT];
+
+  INTENTO_NoArgsCmd_t   CommPckt;
 
 } INTENTO_AppData_t;
 

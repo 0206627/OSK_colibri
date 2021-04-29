@@ -17,11 +17,11 @@
 ** Command Message IDs
 */
 
-//add 2 to each address
+
 
 #define  EXAMPLE2_CMD_MID        0x1FF0
 #define  EXAMPLE2_SEND_HK_MID    0x1FF1
-
+#define  EXAMPLE2_APPCOMM_MID    0x1FCC
 
 /*
 ** Telemetry Message IDs

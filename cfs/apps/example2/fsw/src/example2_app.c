@@ -230,6 +230,12 @@ int32 EXAMPLE2_AppInit(void)
        return ( Status );
     }
 
+    Status = CFE_SB_Subscribe(EXAMPLE2_APPCOMM_MID,EXAMPLE2_AppData.CmdPipe);
+    if ( Status != CFE_SUCCESS )
+    {
+       CFE_ES_WriteToSysLog("EXAMPLE2 App: Error Subscribing to APPCOMM EXAMPLE2 Command, RC = 0x%08X\n", Status);
+       return ( Status );
+    }
                  
     /*
     ** Application startup event message.
@@ -288,6 +294,10 @@ void EXAMPLE2_AppPipe(CFE_SB_MsgPtr_t msg)
                     break;
             }
             break;
+        case EXAMPLE2_APPCOMM_MID:
+             printf("Example2");
+             CFE_EVS_SendEvent(EXAMPLE2_NEW_CMD_INF_EID, CFE_EVS_INFORMATION, "Funciona:)");
+             break;
 
         default:
 

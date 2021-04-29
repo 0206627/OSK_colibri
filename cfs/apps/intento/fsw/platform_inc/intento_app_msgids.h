@@ -18,7 +18,7 @@
 
 #define  INTENTO_CMD_MID        0x1FCA
 #define  INTENTO_SEND_HK_MID    0x1FCB
-
+#define  INTENTO_APPCOMM_MID    0x1FCC
 
 /*
 ** Telemetry Message IDs

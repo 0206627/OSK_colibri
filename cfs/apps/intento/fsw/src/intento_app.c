@@ -196,7 +196,8 @@ int32 INTENTO_AppInit(void)
     ** Initialize housekeeping packet (clear user data area).
     */
     CFE_SB_InitMsg(&INTENTO_AppData.HkPacket, INTENTO_HK_TLM_MID, sizeof(INTENTO_HkPacket_t), TRUE);
-   
+    CFE_SB_InitMsg(&INTENTO_AppData.CommPckt, INTENTO_APPCOMM_MID, sizeof(INTENTO_NoArgsCmd_t), TRUE);
+    //CFE_MSG_Init(&INTENTO_AppData.CommPckt, INTENTO_APPCOMM_MID, sizeof(INTENTO_NoArgsCmd_t), TRUE);
     /*
     ** Create Software Bus message pipe.
     */
@@ -229,7 +230,13 @@ int32 INTENTO_AppInit(void)
        CFE_ES_WriteToSysLog("INTENTO App: Error Subscribing to INTENTO Command, RC = 0x%08X\n", Status);
        return ( Status );
     }
-                 
+    // Status = CFE_SB_Subscribe(INTENTO_APPCOMM_MID,INTENTO_AppData.CmdPipe);
+    // if ( Status != CFE_SUCCESS )
+    // {
+    //    CFE_ES_WriteToSysLog("INTENTO App: Error Subscribing to APPCOMM Request, RC = 0x%08X\n", Status);
+    //    return ( Status );
+    // }
+          
     /*
     ** Application startup event message.
     */
@@ -359,6 +366,11 @@ void INTENTO_NoopCmd(CFE_SB_MsgPtr_t msg)
 
         CFE_EVS_SendEvent(INTENTO_NOOP_INF_EID, CFE_EVS_INFORMATION,
                          "INTENTO Version 1.0.0: No-op command");
+
+        CFE_SB_TimeStampMsg((CFE_SB_Msg_t *) &INTENTO_AppData.CommPckt);
+        CFE_SB_SendMsg((CFE_SB_Msg_t *) &INTENTO_AppData.CommPckt);
+        printf("Hi");
+
     }
 
     return;
